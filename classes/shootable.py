@@ -9,4 +9,5 @@ class Shootable(entity.Entity):
         self.cannon = cannon
 
     def shoot(self, list_of_sprites):
-        list_of_sprites.append(self.cannon.shoot(self))
+        if self.cannon.check_if_can_shut():
+            list_of_sprites.append(self.cannon.shoot(self))

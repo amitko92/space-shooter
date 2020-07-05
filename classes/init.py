@@ -39,7 +39,7 @@ laser_enemy_player = 360
 
 # cannon A
 cannon_a_laser_image = ":resources:images/space_shooter/laserBlue01.png"
-cannon_a_daly_time = 5
+cannon_a_daly_time = 1
 cannon_a_laser_width = 32
 cannon_a_laser_height = 4
 cannon_a_laser_speed = 5
