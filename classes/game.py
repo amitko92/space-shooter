@@ -1,7 +1,5 @@
 import arcade
-import init
-import level_1
-from entity import Entity
+from classes import level_1, init
 
 
 class Game(arcade.Window):
